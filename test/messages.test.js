@@ -1,4 +1,5 @@
 import { expect, server, BASE_URL } from './setup';
+
 describe('Messages', () => {
   it('get messages page', done => {
     server
